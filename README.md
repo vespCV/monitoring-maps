@@ -4,9 +4,13 @@ Daily maps of citizen-science hornet reports in three Dutch regions. Each map sh
 
 ## Maps
 
-- [Dordrecht](maps/map_dordrecht.html)
-- [Rotterdam agglomeration](maps/map_rotterdam.html)
-- [Schouwen-Duiveland](maps/map_schouwen_duiveland.html)
+Open these live map pages (not the raw HTML in this repo):
+
+- [Dordrecht](https://vespcv.github.io/monitoring-maps/maps/map_dordrecht.html)
+- [Rotterdam agglomeration](https://vespcv.github.io/monitoring-maps/maps/map_rotterdam.html)
+- [Schouwen-Duiveland](https://vespcv.github.io/monitoring-maps/maps/map_schouwen_duiveland.html)
+
+Site index: [vespcv.github.io/monitoring-maps](https://vespcv.github.io/monitoring-maps/)
 
 ## Legend
 
