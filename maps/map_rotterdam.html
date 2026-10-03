@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fe44b5274a962ee8adc0889824329c91 {
+                #map_cb7ac7e13dfba5c8911a170aa642ca56 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,18 +54,18 @@
 <body>
     
     <div style="position:fixed;top:10px;left:50px;z-index:9999;background:white;padding:6px 10px;border:1px solid #888;">Hornet hotspots — rotterdam (last 7 days)</div>
-    <div style="position:fixed;bottom:24px;left:24px;z-index:9999;background:white;padding:10px 12px;border:1px solid #888;font-size:12px;line-height:1.5;max-width:320px;"><b>Legend</b><div><span style="display:inline-block;width:12px;height:12px;background:#c62828;border:1px solid #333;margin-right:6px;"></span>Asian hornet individuals (last 7 days)</div><div><span style="display:inline-block;width:12px;height:12px;background:#6d4c41;border:1px solid #333;margin-right:6px;"></span>Asian hornet nests (last 7 days)</div><div><span style="display:inline-block;width:12px;height:12px;background:#f9a825;border:1px solid #333;margin-right:6px;"></span>European hornet individuals (last 7 days)</div><div><span style="display:inline-block;width:12px;height:12px;background:#212121;border:1px solid #333;margin-right:6px;"></span>European hornet nests (last 7 days)</div><div style='margin-top:6px;'>number = observation count this week in the cell</div><div>↑ rising / ↓ falling / → stable vs days 7–27</div></div>
+    <div style="position:fixed;bottom:24px;left:24px;z-index:9999;background:white;padding:10px 12px;border:1px solid #888;font-size:12px;line-height:1.5;max-width:320px;"><b>Legend</b><div><span style="display:inline-block;width:12px;height:12px;background:#c62828;border:1px solid #333;margin-right:6px;"></span>Asian hornet individuals (last 7 days)</div><div><span style="display:inline-block;width:12px;height:12px;background:#6d4c41;border:1px solid #333;margin-right:6px;"></span>Asian hornet nests (last 7 days)</div><div><span style="display:inline-block;width:12px;height:12px;background:#f9a825;border:1px solid #333;margin-right:6px;"></span>European hornet individuals (last 7 days)</div><div><span style="display:inline-block;width:12px;height:12px;background:#212121;border:1px solid #333;margin-right:6px;"></span>European hornet nests (last 7 days)</div><div style='margin-top:6px;'>number = observation count this week in the cell</div><div>↑ rising / ↓ falling / → stable vs days 7–27</div><div>Meldpunt last live fetch: 2026-10-03 20:10 (Europe/Amsterdam)</div></div>
     
-            <div class="folium-map" id="map_fe44b5274a962ee8adc0889824329c91" ></div>
+            <div class="folium-map" id="map_cb7ac7e13dfba5c8911a170aa642ca56" ></div>
         
 </body>
 <script>
     
     
-            var map_fe44b5274a962ee8adc0889824329c91 = L.map(
-                "map_fe44b5274a962ee8adc0889824329c91",
+            var map_cb7ac7e13dfba5c8911a170aa642ca56 = L.map(
+                "map_cb7ac7e13dfba5c8911a170aa642ca56",
                 {
-                    center: [51.931503074049765, 4.283017379395708],
+                    center: [51.941276061782915, 4.259377247582137],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 11,
@@ -80,7 +80,7 @@
 
         
     
-            var tile_layer_e8ded37fe58d6e5d5bcbfa37d606d4c1 = L.tileLayer(
+            var tile_layer_0078a6c340e0637434d137370fc57ddf = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -97,104 +97,104 @@
             );
         
     
-            tile_layer_e8ded37fe58d6e5d5bcbfa37d606d4c1.addTo(map_fe44b5274a962ee8adc0889824329c91);
+            tile_layer_0078a6c340e0637434d137370fc57ddf.addTo(map_cb7ac7e13dfba5c8911a170aa642ca56);
         
     
-            var feature_group_e8c6d7d8b23fd16b120320595456c08a = L.featureGroup(
+            var feature_group_99aba89a8f4ae3142938be2863b52dbf = L.featureGroup(
                 {
 }
             );
         
     
-            var rectangle_505aad0588e4f7643deea5e985ff77e3 = L.rectangle(
-                [[51.98564084726046, 4.036958119424796], [51.987929089064004, 4.040529174554704]],
-                {"bubblingMouseEvents": true, "color": "#c62828", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c62828", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_e8c6d7d8b23fd16b120320595456c08a);
-        
-    
-        var popup_b60b6c938096640558e90bd2e8d69793 = L.popup({
-  "maxWidth": 320,
-});
-
-        
-            
-                var html_064d72a9de3e1fea1ecd3128461a9826 = $(`<div id="html_064d72a9de3e1fea1ecd3128461a9826" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 1)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
-                popup_b60b6c938096640558e90bd2e8d69793.setContent(html_064d72a9de3e1fea1ecd3128461a9826);
-            
-        
-
-        rectangle_505aad0588e4f7643deea5e985ff77e3.bindPopup(popup_b60b6c938096640558e90bd2e8d69793)
-        ;
-
-        
-    
-    
-            var marker_05aefab94fc8236cccb00c5f3f9caa54 = L.marker(
-                [51.98733618575851, 4.037817052315271],
-                {
-}
-            ).addTo(feature_group_e8c6d7d8b23fd16b120320595456c08a);
-        
-    
-            var div_icon_6020b199a866ad892344b9aaa831e60e = L.divIcon({
-  "html": "\u003cdiv style=\"background:#c62828;color:#ffffff;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e3\u2191\u003c/div\u003e",
-  "iconSize": [40, 22],
-  "iconAnchor": [20, 11],
-  "className": "vespa-count-badge",
-});
-        
-    
-        var popup_60a382e52c303b1621e00686b80ad55a = L.popup({
-  "maxWidth": 320,
-});
-
-        
-            
-                var html_bb0564bdee8e5b292d551af70698ff54 = $(`<div id="html_bb0564bdee8e5b292d551af70698ff54" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 1)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
-                popup_60a382e52c303b1621e00686b80ad55a.setContent(html_bb0564bdee8e5b292d551af70698ff54);
-            
-        
-
-        marker_05aefab94fc8236cccb00c5f3f9caa54.bindPopup(popup_60a382e52c303b1621e00686b80ad55a)
-        ;
-
-        
-    
-    
-                marker_05aefab94fc8236cccb00c5f3f9caa54.setIcon(div_icon_6020b199a866ad892344b9aaa831e60e);
-            
-    
-            var rectangle_b7206fd22093fedc9bec0ec9ab6c8872 = L.rectangle(
+            var rectangle_72e6086959155a3fa697cf2c231b0b04 = L.rectangle(
                 [[51.9267307259346, 4.4494694022153], [51.92900647816639, 4.453056852734224]],
                 {"bubblingMouseEvents": true, "color": "#c62828", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c62828", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_e8c6d7d8b23fd16b120320595456c08a);
+            ).addTo(feature_group_99aba89a8f4ae3142938be2863b52dbf);
         
     
-        var popup_32e0df61cc063eb930a24beb0b605d2c = L.popup({
+        var popup_0abb94a2c4977b21be1460749822b71d = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_b1662557282e3f9df0fd945cd76a4863 = $(`<div id="html_b1662557282e3f9df0fd945cd76a4863" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 2)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.92787, 4.45126</div>`)[0];
-                popup_32e0df61cc063eb930a24beb0b605d2c.setContent(html_b1662557282e3f9df0fd945cd76a4863);
+                var html_70cbd535ebc0045193f16e6f50429415 = $(`<div id="html_70cbd535ebc0045193f16e6f50429415" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 1)<br/>this week (d00-06): <b>4</b><br/>Waarneming.nl: 4, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.92787, 4.45126</div>`)[0];
+                popup_0abb94a2c4977b21be1460749822b71d.setContent(html_70cbd535ebc0045193f16e6f50429415);
             
         
 
-        rectangle_b7206fd22093fedc9bec0ec9ab6c8872.bindPopup(popup_32e0df61cc063eb930a24beb0b605d2c)
+        rectangle_72e6086959155a3fa697cf2c231b0b04.bindPopup(popup_0abb94a2c4977b21be1460749822b71d)
         ;
 
         
     
     
-            var marker_457c405fa3bb303d19f606c01989d7e9 = L.marker(
+            var marker_65314dde2c217d1c11febf37b48c99aa = L.marker(
                 [51.9284230824651, 4.450342806448853],
                 {
 }
-            ).addTo(feature_group_e8c6d7d8b23fd16b120320595456c08a);
+            ).addTo(feature_group_99aba89a8f4ae3142938be2863b52dbf);
         
     
-            var div_icon_c7540c1dad1df523e0e145159c543293 = L.divIcon({
+            var div_icon_611bf73635e3b8224fd68063fb642f1a = L.divIcon({
+  "html": "\u003cdiv style=\"background:#c62828;color:#ffffff;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e4\u2191\u003c/div\u003e",
+  "iconSize": [40, 22],
+  "iconAnchor": [20, 11],
+  "className": "vespa-count-badge",
+});
+        
+    
+        var popup_8872546197510fccdece09bb9deb68ad = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_0366c1925ac602adae2fd5450cb750dd = $(`<div id="html_0366c1925ac602adae2fd5450cb750dd" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 1)<br/>this week (d00-06): <b>4</b><br/>Waarneming.nl: 4, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.92787, 4.45126</div>`)[0];
+                popup_8872546197510fccdece09bb9deb68ad.setContent(html_0366c1925ac602adae2fd5450cb750dd);
+            
+        
+
+        marker_65314dde2c217d1c11febf37b48c99aa.bindPopup(popup_8872546197510fccdece09bb9deb68ad)
+        ;
+
+        
+    
+    
+                marker_65314dde2c217d1c11febf37b48c99aa.setIcon(div_icon_611bf73635e3b8224fd68063fb642f1a);
+            
+    
+            var rectangle_da0cfad0fb04b29c8cd296ed1c31911e = L.rectangle(
+                [[51.98564084726046, 4.036958119424796], [51.987929089064004, 4.040529174554704]],
+                {"bubblingMouseEvents": true, "color": "#c62828", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c62828", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(feature_group_99aba89a8f4ae3142938be2863b52dbf);
+        
+    
+        var popup_6e0a7fe1424a69c9b6311c4721df5319 = L.popup({
+  "maxWidth": 320,
+});
+
+        
+            
+                var html_9ac57aff3e5d7ac601f2ba81ac80f1ba = $(`<div id="html_9ac57aff3e5d7ac601f2ba81ac80f1ba" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 2)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
+                popup_6e0a7fe1424a69c9b6311c4721df5319.setContent(html_9ac57aff3e5d7ac601f2ba81ac80f1ba);
+            
+        
+
+        rectangle_da0cfad0fb04b29c8cd296ed1c31911e.bindPopup(popup_6e0a7fe1424a69c9b6311c4721df5319)
+        ;
+
+        
+    
+    
+            var marker_354ee3a570fb553155bddb12faace7e3 = L.marker(
+                [51.98733618575851, 4.037817052315271],
+                {
+}
+            ).addTo(feature_group_99aba89a8f4ae3142938be2863b52dbf);
+        
+    
+            var div_icon_29cda0e4773fdfb920fbe5647a0934d8 = L.divIcon({
   "html": "\u003cdiv style=\"background:#c62828;color:#ffffff;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e3\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -202,57 +202,57 @@
 });
         
     
-        var popup_2ab0946d7c5ad96fc6934aa6185d2b56 = L.popup({
+        var popup_a32db37c9be2827d0164b8b428c614c4 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_a1f0e4a5742f30f5b5ab15edc3355a48 = $(`<div id="html_a1f0e4a5742f30f5b5ab15edc3355a48" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 2)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.92787, 4.45126</div>`)[0];
-                popup_2ab0946d7c5ad96fc6934aa6185d2b56.setContent(html_a1f0e4a5742f30f5b5ab15edc3355a48);
+                var html_1bee51397acf33c2040afc1594d0fd0b = $(`<div id="html_1bee51397acf33c2040afc1594d0fd0b" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 2)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
+                popup_a32db37c9be2827d0164b8b428c614c4.setContent(html_1bee51397acf33c2040afc1594d0fd0b);
             
         
 
-        marker_457c405fa3bb303d19f606c01989d7e9.bindPopup(popup_2ab0946d7c5ad96fc6934aa6185d2b56)
+        marker_354ee3a570fb553155bddb12faace7e3.bindPopup(popup_a32db37c9be2827d0164b8b428c614c4)
         ;
 
         
     
     
-                marker_457c405fa3bb303d19f606c01989d7e9.setIcon(div_icon_c7540c1dad1df523e0e145159c543293);
+                marker_354ee3a570fb553155bddb12faace7e3.setIcon(div_icon_29cda0e4773fdfb920fbe5647a0934d8);
             
     
-            var rectangle_f7ddd736a8a9318d5dec774f0ba5c10e = L.rectangle(
+            var rectangle_e6e43a33a5a64e35af55c5947161c21a = L.rectangle(
                 [[51.99006428456246, 4.502743761616457], [51.99233840778331, 4.506338970463251]],
                 {"bubblingMouseEvents": true, "color": "#c62828", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#c62828", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_e8c6d7d8b23fd16b120320595456c08a);
+            ).addTo(feature_group_99aba89a8f4ae3142938be2863b52dbf);
         
     
-        var popup_20a12b4736fdf2c70bda8c4807d07f59 = L.popup({
+        var popup_6ae2bef81495451ae6ed060b6a47a541 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_48ab93a42a7ce4255b433f9c9dfb0412 = $(`<div id="html_48ab93a42a7ce4255b433f9c9dfb0412" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 3)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.99120, 4.50454</div>`)[0];
-                popup_20a12b4736fdf2c70bda8c4807d07f59.setContent(html_48ab93a42a7ce4255b433f9c9dfb0412);
+                var html_42359ab15eece685a9ecb87b76a87e52 = $(`<div id="html_42359ab15eece685a9ecb87b76a87e52" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 3)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.99120, 4.50454</div>`)[0];
+                popup_6ae2bef81495451ae6ed060b6a47a541.setContent(html_42359ab15eece685a9ecb87b76a87e52);
             
         
 
-        rectangle_f7ddd736a8a9318d5dec774f0ba5c10e.bindPopup(popup_20a12b4736fdf2c70bda8c4807d07f59)
+        rectangle_e6e43a33a5a64e35af55c5947161c21a.bindPopup(popup_6ae2bef81495451ae6ed060b6a47a541)
         ;
 
         
     
     
-            var marker_d627461f7167d3fdcbb431ae6b9454a5 = L.marker(
+            var marker_88008f9d4dcda17a0fbc6b662c0ef6fa = L.marker(
                 [51.99175623729111, 4.503620396834062],
                 {
 }
-            ).addTo(feature_group_e8c6d7d8b23fd16b120320595456c08a);
+            ).addTo(feature_group_99aba89a8f4ae3142938be2863b52dbf);
         
     
-            var div_icon_6ebf6b3874d8057c794a7f0f502cce59 = L.divIcon({
+            var div_icon_522fe25adae207c92c6e4da1bcb79d67 = L.divIcon({
   "html": "\u003cdiv style=\"background:#c62828;color:#ffffff;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e3\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -260,66 +260,66 @@
 });
         
     
-        var popup_b459b672764182826d1cecc1868b3ba7 = L.popup({
+        var popup_c436e2bc32723610225b11b1034a3a35 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_fc886ad512b8ec6ccc6e014b22de903d = $(`<div id="html_fc886ad512b8ec6ccc6e014b22de903d" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 3)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.99120, 4.50454</div>`)[0];
-                popup_b459b672764182826d1cecc1868b3ba7.setContent(html_fc886ad512b8ec6ccc6e014b22de903d);
+                var html_ae9bfb956c58fe82b8bed3738cfbf759 = $(`<div id="html_ae9bfb956c58fe82b8bed3738cfbf759" style="width: 100.0%; height: 100.0%;">vespa_velutina — individual (rank 3)<br/>this week (d00-06): <b>3</b><br/>Waarneming.nl: 3, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.99120, 4.50454</div>`)[0];
+                popup_c436e2bc32723610225b11b1034a3a35.setContent(html_ae9bfb956c58fe82b8bed3738cfbf759);
             
         
 
-        marker_d627461f7167d3fdcbb431ae6b9454a5.bindPopup(popup_b459b672764182826d1cecc1868b3ba7)
+        marker_88008f9d4dcda17a0fbc6b662c0ef6fa.bindPopup(popup_c436e2bc32723610225b11b1034a3a35)
         ;
 
         
     
     
-                marker_d627461f7167d3fdcbb431ae6b9454a5.setIcon(div_icon_6ebf6b3874d8057c794a7f0f502cce59);
+                marker_88008f9d4dcda17a0fbc6b662c0ef6fa.setIcon(div_icon_522fe25adae207c92c6e4da1bcb79d67);
             
     
-            feature_group_e8c6d7d8b23fd16b120320595456c08a.addTo(map_fe44b5274a962ee8adc0889824329c91);
+            feature_group_99aba89a8f4ae3142938be2863b52dbf.addTo(map_cb7ac7e13dfba5c8911a170aa642ca56);
         
     
-            var feature_group_8fc7da86213b5d90bd2bac872eeedec3 = L.featureGroup(
+            var feature_group_a9bc946f6ac746df18b3951d65407795 = L.featureGroup(
                 {
 }
             );
         
     
-            var rectangle_235dd8a29d7edbaef323a15d57a8e0e6 = L.rectangle(
+            var rectangle_8a037161ad3fca74e835d04551d7a105 = L.rectangle(
                 [[51.98564084726046, 4.036958119424796], [51.987929089064004, 4.040529174554704]],
                 {"bubblingMouseEvents": true, "color": "#6d4c41", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6d4c41", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_8fc7da86213b5d90bd2bac872eeedec3);
+            ).addTo(feature_group_a9bc946f6ac746df18b3951d65407795);
         
     
-        var popup_4a53c1297e7e482dc86a45e7ee573249 = L.popup({
+        var popup_036de214865c997c5b01712468b8e002 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_bbfa8aadbabd61eca55018de4f104e61 = $(`<div id="html_bbfa8aadbabd61eca55018de4f104e61" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 1)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
-                popup_4a53c1297e7e482dc86a45e7ee573249.setContent(html_bbfa8aadbabd61eca55018de4f104e61);
+                var html_c83077f694dee7b2f731fca696595b40 = $(`<div id="html_c83077f694dee7b2f731fca696595b40" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 1)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
+                popup_036de214865c997c5b01712468b8e002.setContent(html_c83077f694dee7b2f731fca696595b40);
             
         
 
-        rectangle_235dd8a29d7edbaef323a15d57a8e0e6.bindPopup(popup_4a53c1297e7e482dc86a45e7ee573249)
+        rectangle_8a037161ad3fca74e835d04551d7a105.bindPopup(popup_036de214865c997c5b01712468b8e002)
         ;
 
         
     
     
-            var marker_a872f757df1962c597ac3767e5c92374 = L.marker(
+            var marker_192b5880b0bcd8db57bf66807cd669d1 = L.marker(
                 [51.98735703872719, 4.039636376614261],
                 {
 }
-            ).addTo(feature_group_8fc7da86213b5d90bd2bac872eeedec3);
+            ).addTo(feature_group_a9bc946f6ac746df18b3951d65407795);
         
     
-            var div_icon_be0cea6f6082af66cf882e3a7149bb78 = L.divIcon({
+            var div_icon_5470f7579078193b75cece9f5564e422 = L.divIcon({
   "html": "\u003cdiv style=\"background:#6d4c41;color:#ffffff;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e1\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -327,57 +327,57 @@
 });
         
     
-        var popup_dff7a0ef539934bea182d51c9badbd0a = L.popup({
+        var popup_d128c3ed75496f93412835f8be603892 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_f26a32b89a804d571227084287e441b5 = $(`<div id="html_f26a32b89a804d571227084287e441b5" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 1)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
-                popup_dff7a0ef539934bea182d51c9badbd0a.setContent(html_f26a32b89a804d571227084287e441b5);
+                var html_0302233f34c8f025470ae3d2cd1e0fc7 = $(`<div id="html_0302233f34c8f025470ae3d2cd1e0fc7" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 1)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
+                popup_d128c3ed75496f93412835f8be603892.setContent(html_0302233f34c8f025470ae3d2cd1e0fc7);
             
         
 
-        marker_a872f757df1962c597ac3767e5c92374.bindPopup(popup_dff7a0ef539934bea182d51c9badbd0a)
+        marker_192b5880b0bcd8db57bf66807cd669d1.bindPopup(popup_d128c3ed75496f93412835f8be603892)
         ;
 
         
     
     
-                marker_a872f757df1962c597ac3767e5c92374.setIcon(div_icon_be0cea6f6082af66cf882e3a7149bb78);
+                marker_192b5880b0bcd8db57bf66807cd669d1.setIcon(div_icon_5470f7579078193b75cece9f5564e422);
             
     
-            var rectangle_daefe968e4e88ff75f35f13842cfa8a1 = L.rectangle(
-                [[51.91698377814727, 4.358822828504569], [51.91926228460733, 4.362404892130727]],
+            var rectangle_ab1857331e4ffa2e1e71366787735e78 = L.rectangle(
+                [[51.91836596103115, 4.264303167270291], [51.92064733319522, 4.267880523769944]],
                 {"bubblingMouseEvents": true, "color": "#6d4c41", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6d4c41", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_8fc7da86213b5d90bd2bac872eeedec3);
+            ).addTo(feature_group_a9bc946f6ac746df18b3951d65407795);
         
     
-        var popup_ef7e3dada0df8a8ad6900d9157e2ef5e = L.popup({
+        var popup_b7ca63e844352ec87ceea6a75a7c16cd = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_d77ae2c76c06a2bbf6f3bf2f7d1b0ba7 = $(`<div id="html_d77ae2c76c06a2bbf6f3bf2f7d1b0ba7" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 2)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.91812, 4.36061</div>`)[0];
-                popup_ef7e3dada0df8a8ad6900d9157e2ef5e.setContent(html_d77ae2c76c06a2bbf6f3bf2f7d1b0ba7);
+                var html_8dc7715a6cbad2772096bc4d105d0ca5 = $(`<div id="html_8dc7715a6cbad2772096bc4d105d0ca5" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 2)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.91951, 4.26609</div>`)[0];
+                popup_b7ca63e844352ec87ceea6a75a7c16cd.setContent(html_8dc7715a6cbad2772096bc4d105d0ca5);
             
         
 
-        rectangle_daefe968e4e88ff75f35f13842cfa8a1.bindPopup(popup_ef7e3dada0df8a8ad6900d9157e2ef5e)
+        rectangle_ab1857331e4ffa2e1e71366787735e78.bindPopup(popup_b7ca63e844352ec87ceea6a75a7c16cd)
         ;
 
         
     
     
-            var marker_68410cc8f76fb89c483e49b4e0077f82 = L.marker(
-                [51.91869266820292, 4.361509342172793],
+            var marker_76564f9498eebe75259b77b32311251d = L.marker(
+                [51.92007700032961, 4.266986150594836],
                 {
 }
-            ).addTo(feature_group_8fc7da86213b5d90bd2bac872eeedec3);
+            ).addTo(feature_group_a9bc946f6ac746df18b3951d65407795);
         
     
-            var div_icon_ef2ee1f2bef09adfbcd4e40af45918d6 = L.divIcon({
+            var div_icon_67b28c7852182d796feab4604c629fa1 = L.divIcon({
   "html": "\u003cdiv style=\"background:#6d4c41;color:#ffffff;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e1\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -385,57 +385,57 @@
 });
         
     
-        var popup_0871be2d055cd573a99f2404ef636612 = L.popup({
+        var popup_755df57a62f277250cfc3ced4b404256 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_3b727769fc9d93e91e270752ce290589 = $(`<div id="html_3b727769fc9d93e91e270752ce290589" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 2)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.91812, 4.36061</div>`)[0];
-                popup_0871be2d055cd573a99f2404ef636612.setContent(html_3b727769fc9d93e91e270752ce290589);
+                var html_dcdd8d09515d1378e4c69ef3a77617f7 = $(`<div id="html_dcdd8d09515d1378e4c69ef3a77617f7" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 2)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 1<br/>trend: <b>↑ rising</b><br/>centroid: 51.91951, 4.26609</div>`)[0];
+                popup_755df57a62f277250cfc3ced4b404256.setContent(html_dcdd8d09515d1378e4c69ef3a77617f7);
             
         
 
-        marker_68410cc8f76fb89c483e49b4e0077f82.bindPopup(popup_0871be2d055cd573a99f2404ef636612)
+        marker_76564f9498eebe75259b77b32311251d.bindPopup(popup_755df57a62f277250cfc3ced4b404256)
         ;
 
         
     
     
-                marker_68410cc8f76fb89c483e49b4e0077f82.setIcon(div_icon_ef2ee1f2bef09adfbcd4e40af45918d6);
+                marker_76564f9498eebe75259b77b32311251d.setIcon(div_icon_67b28c7852182d796feab4604c629fa1);
             
     
-            var rectangle_18904af1aca046abef2aed1ee7063590 = L.rectangle(
-                [[51.8362879008307, 4.38243046820126], [51.83856569757079, 4.3860073398907735]],
+            var rectangle_06f1cce3f15fa999e066fd5933a3505e = L.rectangle(
+                [[51.92285938551502, 4.264190879305956], [51.92514076073957, 4.267768586123827]],
                 {"bubblingMouseEvents": true, "color": "#6d4c41", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#6d4c41", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_8fc7da86213b5d90bd2bac872eeedec3);
+            ).addTo(feature_group_a9bc946f6ac746df18b3951d65407795);
         
     
-        var popup_6ac6878d7d51e2b95d1717fb979bf188 = L.popup({
+        var popup_fca12e0c8090caaebc62603dc0af2423 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_aa130a1e96b6fd34d8b5adc6cb34ede8 = $(`<div id="html_aa130a1e96b6fd34d8b5adc6cb34ede8" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 3)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.83743, 4.38422</div>`)[0];
-                popup_6ac6878d7d51e2b95d1717fb979bf188.setContent(html_aa130a1e96b6fd34d8b5adc6cb34ede8);
+                var html_8235aad8968241c361e8711d360f4c96 = $(`<div id="html_8235aad8968241c361e8711d360f4c96" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 3)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 0, Meldpunt: 1<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.92400, 4.26598</div>`)[0];
+                popup_fca12e0c8090caaebc62603dc0af2423.setContent(html_8235aad8968241c361e8711d360f4c96);
             
         
 
-        rectangle_18904af1aca046abef2aed1ee7063590.bindPopup(popup_6ac6878d7d51e2b95d1717fb979bf188)
+        rectangle_06f1cce3f15fa999e066fd5933a3505e.bindPopup(popup_fca12e0c8090caaebc62603dc0af2423)
         ;
 
         
     
     
-            var marker_8428635203638057ffcb041a6916760b = L.marker(
-                [51.83799625857567, 4.38511308805667],
+            var marker_a1825c908848945de5493f2015185727 = L.marker(
+                [51.92457042711046, 4.26687412536132],
                 {
 }
-            ).addTo(feature_group_8fc7da86213b5d90bd2bac872eeedec3);
+            ).addTo(feature_group_a9bc946f6ac746df18b3951d65407795);
         
     
-            var div_icon_150ffcfb62802deffd23a18b2f4adc8f = L.divIcon({
+            var div_icon_bb36056554ff49498541e7d9e41585fd = L.divIcon({
   "html": "\u003cdiv style=\"background:#6d4c41;color:#ffffff;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e1\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -443,66 +443,66 @@
 });
         
     
-        var popup_b4aa178a2cafd15e0eab1f481cdb0fd9 = L.popup({
+        var popup_66070745d611cfe190ba4ee3bd83f5b7 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_c2016ce63374d434dcf896e1e8c0d472 = $(`<div id="html_c2016ce63374d434dcf896e1e8c0d472" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 3)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 1, Meldpunt: 0<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.83743, 4.38422</div>`)[0];
-                popup_b4aa178a2cafd15e0eab1f481cdb0fd9.setContent(html_c2016ce63374d434dcf896e1e8c0d472);
+                var html_93227ae02646a064cce0b249167c9c72 = $(`<div id="html_93227ae02646a064cce0b249167c9c72" style="width: 100.0%; height: 100.0%;">vespa_velutina — nest (rank 3)<br/>this week (d00-06): <b>1</b><br/>Waarneming.nl: 0, Meldpunt: 1<br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.92400, 4.26598</div>`)[0];
+                popup_66070745d611cfe190ba4ee3bd83f5b7.setContent(html_93227ae02646a064cce0b249167c9c72);
             
         
 
-        marker_8428635203638057ffcb041a6916760b.bindPopup(popup_b4aa178a2cafd15e0eab1f481cdb0fd9)
+        marker_a1825c908848945de5493f2015185727.bindPopup(popup_66070745d611cfe190ba4ee3bd83f5b7)
         ;
 
         
     
     
-                marker_8428635203638057ffcb041a6916760b.setIcon(div_icon_150ffcfb62802deffd23a18b2f4adc8f);
+                marker_a1825c908848945de5493f2015185727.setIcon(div_icon_bb36056554ff49498541e7d9e41585fd);
             
     
-            feature_group_8fc7da86213b5d90bd2bac872eeedec3.addTo(map_fe44b5274a962ee8adc0889824329c91);
+            feature_group_a9bc946f6ac746df18b3951d65407795.addTo(map_cb7ac7e13dfba5c8911a170aa642ca56);
         
     
-            var feature_group_375e32ef1b11db5cbaa48794da3aaa8f = L.featureGroup(
+            var feature_group_27d7f71bbec7246cec425edaf97887bb = L.featureGroup(
                 {
 }
             );
         
     
-            var rectangle_9f637dff3f135550283aad6d51a0ad0b = L.rectangle(
+            var rectangle_ffb9b162f23aeae63f0ab84014f611e9 = L.rectangle(
                 [[51.83714107053304, 4.487610095514057], [51.8394156725717, 4.491192370688484]],
                 {"bubblingMouseEvents": true, "color": "#f9a825", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#f9a825", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_375e32ef1b11db5cbaa48794da3aaa8f);
+            ).addTo(feature_group_27d7f71bbec7246cec425edaf97887bb);
         
     
-        var popup_5f602f877fd55df3373f2a6c253977d4 = L.popup({
+        var popup_54d7db74e02fea18be1ce7acd1ec7ba8 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_e745b5da499f8a193f7ffd730c5d0ac2 = $(`<div id="html_e745b5da499f8a193f7ffd730c5d0ac2" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 1)<br/>this week (d00-06): <b>2</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.83828, 4.48940</div>`)[0];
-                popup_5f602f877fd55df3373f2a6c253977d4.setContent(html_e745b5da499f8a193f7ffd730c5d0ac2);
+                var html_caeafcc9b498f2e553ed616a54d0a71b = $(`<div id="html_caeafcc9b498f2e553ed616a54d0a71b" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 1)<br/>this week (d00-06): <b>2</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.83828, 4.48940</div>`)[0];
+                popup_54d7db74e02fea18be1ce7acd1ec7ba8.setContent(html_caeafcc9b498f2e553ed616a54d0a71b);
             
         
 
-        rectangle_9f637dff3f135550283aad6d51a0ad0b.bindPopup(popup_5f602f877fd55df3373f2a6c253977d4)
+        rectangle_ffb9b162f23aeae63f0ab84014f611e9.bindPopup(popup_54d7db74e02fea18be1ce7acd1ec7ba8)
         ;
 
         
     
     
-            var marker_5e408cb26b36b7616b97dfd17e2ed06f = L.marker(
+            var marker_9a9f3aef3151830a8f444f68d0ac50d4 = L.marker(
                 [51.83770973127222, 4.488505630391591],
                 {
 }
-            ).addTo(feature_group_375e32ef1b11db5cbaa48794da3aaa8f);
+            ).addTo(feature_group_27d7f71bbec7246cec425edaf97887bb);
         
     
-            var div_icon_e72330fece3f5774496f853063bf167d = L.divIcon({
+            var div_icon_5912985655ba8ccaf88d63831875792c = L.divIcon({
   "html": "\u003cdiv style=\"background:#f9a825;color:#212121;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e2\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -510,57 +510,57 @@
 });
         
     
-        var popup_a5e4986ab69dd936b4bb3dea5427f180 = L.popup({
+        var popup_bc2e05fa7114599e004fc132aed9b8d6 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_ef83d791b665afb81717530e01840cf4 = $(`<div id="html_ef83d791b665afb81717530e01840cf4" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 1)<br/>this week (d00-06): <b>2</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.83828, 4.48940</div>`)[0];
-                popup_a5e4986ab69dd936b4bb3dea5427f180.setContent(html_ef83d791b665afb81717530e01840cf4);
+                var html_eb6e9b02cc1cb0dbc852a99efac7a18f = $(`<div id="html_eb6e9b02cc1cb0dbc852a99efac7a18f" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 1)<br/>this week (d00-06): <b>2</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.83828, 4.48940</div>`)[0];
+                popup_bc2e05fa7114599e004fc132aed9b8d6.setContent(html_eb6e9b02cc1cb0dbc852a99efac7a18f);
             
         
 
-        marker_5e408cb26b36b7616b97dfd17e2ed06f.bindPopup(popup_a5e4986ab69dd936b4bb3dea5427f180)
+        marker_9a9f3aef3151830a8f444f68d0ac50d4.bindPopup(popup_bc2e05fa7114599e004fc132aed9b8d6)
         ;
 
         
     
     
-                marker_5e408cb26b36b7616b97dfd17e2ed06f.setIcon(div_icon_e72330fece3f5774496f853063bf167d);
+                marker_9a9f3aef3151830a8f444f68d0ac50d4.setIcon(div_icon_5912985655ba8ccaf88d63831875792c);
             
     
-            var rectangle_eed8913f6ecd7e3696bac606a3b705ef = L.rectangle(
+            var rectangle_40605982110d11e51f61f58577ab7166 = L.rectangle(
                 [[51.98564084726046, 4.036958119424796], [51.987929089064004, 4.040529174554704]],
                 {"bubblingMouseEvents": true, "color": "#f9a825", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#f9a825", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_375e32ef1b11db5cbaa48794da3aaa8f);
+            ).addTo(feature_group_27d7f71bbec7246cec425edaf97887bb);
         
     
-        var popup_0771abc206d8e37bf9e4fe646774652e = L.popup({
+        var popup_fd8216db4e4f9e3205633748224f03d2 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_908c54506a6646909a3189e9d8704257 = $(`<div id="html_908c54506a6646909a3189e9d8704257" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 2)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
-                popup_0771abc206d8e37bf9e4fe646774652e.setContent(html_908c54506a6646909a3189e9d8704257);
+                var html_c378ab9faaa02628c838570a7c324d89 = $(`<div id="html_c378ab9faaa02628c838570a7c324d89" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 2)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
+                popup_fd8216db4e4f9e3205633748224f03d2.setContent(html_c378ab9faaa02628c838570a7c324d89);
             
         
 
-        rectangle_eed8913f6ecd7e3696bac606a3b705ef.bindPopup(popup_0771abc206d8e37bf9e4fe646774652e)
+        rectangle_40605982110d11e51f61f58577ab7166.bindPopup(popup_fd8216db4e4f9e3205633748224f03d2)
         ;
 
         
     
     
-            var marker_cb25494f942b3262558f3fb28c3d6f4f = L.marker(
+            var marker_d7d279f8d90d04b41b55d3606c783b2b = L.marker(
                 [51.986212917825036, 4.037850849050004],
                 {
 }
-            ).addTo(feature_group_375e32ef1b11db5cbaa48794da3aaa8f);
+            ).addTo(feature_group_27d7f71bbec7246cec425edaf97887bb);
         
     
-            var div_icon_cc7fee68f5ebfaa8907b4f9a50b47942 = L.divIcon({
+            var div_icon_8cc2e2edbfc850ed000d5c9b03a250d7 = L.divIcon({
   "html": "\u003cdiv style=\"background:#f9a825;color:#212121;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e1\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -568,57 +568,57 @@
 });
         
     
-        var popup_17e52b3742d21a86feb9086b4151d194 = L.popup({
+        var popup_42f92f82a749cbe40866c4f732a01050 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_51899b5bb429482a77213c5f69cd3466 = $(`<div id="html_51899b5bb429482a77213c5f69cd3466" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 2)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
-                popup_17e52b3742d21a86feb9086b4151d194.setContent(html_51899b5bb429482a77213c5f69cd3466);
+                var html_f51f02adf8f18256396a51d1705e286f = $(`<div id="html_f51f02adf8f18256396a51d1705e286f" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 2)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.98678, 4.03874</div>`)[0];
+                popup_42f92f82a749cbe40866c4f732a01050.setContent(html_f51f02adf8f18256396a51d1705e286f);
             
         
 
-        marker_cb25494f942b3262558f3fb28c3d6f4f.bindPopup(popup_17e52b3742d21a86feb9086b4151d194)
+        marker_d7d279f8d90d04b41b55d3606c783b2b.bindPopup(popup_42f92f82a749cbe40866c4f732a01050)
         ;
 
         
     
     
-                marker_cb25494f942b3262558f3fb28c3d6f4f.setIcon(div_icon_cc7fee68f5ebfaa8907b4f9a50b47942);
+                marker_d7d279f8d90d04b41b55d3606c783b2b.setIcon(div_icon_8cc2e2edbfc850ed000d5c9b03a250d7);
             
     
-            var rectangle_4ae59c137f470ae8d17a7f4917e6c9de = L.rectangle(
+            var rectangle_8f225b7e6b149812dd189506b3e5b812 = L.rectangle(
                 [[51.90913342132027, 4.239099721556257], [51.911415557431205, 4.2426750613745545]],
                 {"bubblingMouseEvents": true, "color": "#f9a825", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#f9a825", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
-            ).addTo(feature_group_375e32ef1b11db5cbaa48794da3aaa8f);
+            ).addTo(feature_group_27d7f71bbec7246cec425edaf97887bb);
         
     
-        var popup_19a516af4868c124ec8a8fe08e0587b7 = L.popup({
+        var popup_cd8cc96efbdf535167e0f9516b416036 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_be9ef1d68392881b5bec62d6c93dee5e = $(`<div id="html_be9ef1d68392881b5bec62d6c93dee5e" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 3)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.91027, 4.24089</div>`)[0];
-                popup_19a516af4868c124ec8a8fe08e0587b7.setContent(html_be9ef1d68392881b5bec62d6c93dee5e);
+                var html_5d45905bcf41fedd724f667750655758 = $(`<div id="html_5d45905bcf41fedd724f667750655758" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 3)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.91027, 4.24089</div>`)[0];
+                popup_cd8cc96efbdf535167e0f9516b416036.setContent(html_5d45905bcf41fedd724f667750655758);
             
         
 
-        rectangle_4ae59c137f470ae8d17a7f4917e6c9de.bindPopup(popup_19a516af4868c124ec8a8fe08e0587b7)
+        rectangle_8f225b7e6b149812dd189506b3e5b812.bindPopup(popup_cd8cc96efbdf535167e0f9516b416036)
         ;
 
         
     
     
-            var marker_8f454b56251b950a54d5f8027d855a00 = L.marker(
+            var marker_57f3a73a2e1028898b0baa2476182273 = L.marker(
                 [51.90970396551014, 4.239993522478463],
                 {
 }
-            ).addTo(feature_group_375e32ef1b11db5cbaa48794da3aaa8f);
+            ).addTo(feature_group_27d7f71bbec7246cec425edaf97887bb);
         
     
-            var div_icon_cadf795d1d8d7a65cc11d941fdfa77b9 = L.divIcon({
+            var div_icon_c917552ae2824b29cfa946686c0fb0b7 = L.divIcon({
   "html": "\u003cdiv style=\"background:#f9a825;color:#212121;border:1px solid #333;border-radius:4px;padding:2px 4px;font-size:12px;font-weight:bold;white-space:nowrap;text-align:center;min-width:28px;\"\u003e1\u2191\u003c/div\u003e",
   "iconSize": [40, 22],
   "iconAnchor": [20, 11],
@@ -626,58 +626,58 @@
 });
         
     
-        var popup_c84217fe1a1167eb501493daa72ebaea = L.popup({
+        var popup_96c5d23bdf8352aa5e51f8970da90f80 = L.popup({
   "maxWidth": 320,
 });
 
         
             
-                var html_a69531ed9d1f227e69dd990333d4eb07 = $(`<div id="html_a69531ed9d1f227e69dd990333d4eb07" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 3)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.91027, 4.24089</div>`)[0];
-                popup_c84217fe1a1167eb501493daa72ebaea.setContent(html_a69531ed9d1f227e69dd990333d4eb07);
+                var html_02ca326509e26827f751d90e44fe08e6 = $(`<div id="html_02ca326509e26827f751d90e44fe08e6" style="width: 100.0%; height: 100.0%;">vespa_crabro — individual (rank 3)<br/>this week (d00-06): <b>1</b><br/>prior (d07-27): 0<br/>trend: <b>↑ rising</b><br/>centroid: 51.91027, 4.24089</div>`)[0];
+                popup_96c5d23bdf8352aa5e51f8970da90f80.setContent(html_02ca326509e26827f751d90e44fe08e6);
             
         
 
-        marker_8f454b56251b950a54d5f8027d855a00.bindPopup(popup_c84217fe1a1167eb501493daa72ebaea)
+        marker_57f3a73a2e1028898b0baa2476182273.bindPopup(popup_96c5d23bdf8352aa5e51f8970da90f80)
         ;
 
         
     
     
-                marker_8f454b56251b950a54d5f8027d855a00.setIcon(div_icon_cadf795d1d8d7a65cc11d941fdfa77b9);
+                marker_57f3a73a2e1028898b0baa2476182273.setIcon(div_icon_c917552ae2824b29cfa946686c0fb0b7);
             
     
-            feature_group_375e32ef1b11db5cbaa48794da3aaa8f.addTo(map_fe44b5274a962ee8adc0889824329c91);
+            feature_group_27d7f71bbec7246cec425edaf97887bb.addTo(map_cb7ac7e13dfba5c8911a170aa642ca56);
         
     
-            var feature_group_f7132aa3f9cdcdf0599667609793140e = L.featureGroup(
+            var feature_group_6edc2812086099e0afbbce65d25d2f53 = L.featureGroup(
                 {
 }
             );
         
     
-            feature_group_f7132aa3f9cdcdf0599667609793140e.addTo(map_fe44b5274a962ee8adc0889824329c91);
+            feature_group_6edc2812086099e0afbbce65d25d2f53.addTo(map_cb7ac7e13dfba5c8911a170aa642ca56);
         
     
-            var layer_control_257b3ffc3c0051123572ebad5cce505d_layers = {
+            var layer_control_47e3d0393856beccfc7ab9a5894b8daa_layers = {
                 base_layers : {
-                    "openstreetmap" : tile_layer_e8ded37fe58d6e5d5bcbfa37d606d4c1,
+                    "openstreetmap" : tile_layer_0078a6c340e0637434d137370fc57ddf,
                 },
                 overlays :  {
-                    "Asian individuals" : feature_group_e8c6d7d8b23fd16b120320595456c08a,
-                    "Asian nests" : feature_group_8fc7da86213b5d90bd2bac872eeedec3,
-                    "European individuals" : feature_group_375e32ef1b11db5cbaa48794da3aaa8f,
-                    "European nests" : feature_group_f7132aa3f9cdcdf0599667609793140e,
+                    "Asian individuals" : feature_group_99aba89a8f4ae3142938be2863b52dbf,
+                    "Asian nests" : feature_group_a9bc946f6ac746df18b3951d65407795,
+                    "European individuals" : feature_group_27d7f71bbec7246cec425edaf97887bb,
+                    "European nests" : feature_group_6edc2812086099e0afbbce65d25d2f53,
                 },
             };
-            let layer_control_257b3ffc3c0051123572ebad5cce505d = L.control.layers(
-                layer_control_257b3ffc3c0051123572ebad5cce505d_layers.base_layers,
-                layer_control_257b3ffc3c0051123572ebad5cce505d_layers.overlays,
+            let layer_control_47e3d0393856beccfc7ab9a5894b8daa = L.control.layers(
+                layer_control_47e3d0393856beccfc7ab9a5894b8daa_layers.base_layers,
+                layer_control_47e3d0393856beccfc7ab9a5894b8daa_layers.overlays,
                 {
   "position": "topright",
   "collapsed": false,
   "autoZIndex": true,
 }
-            ).addTo(map_fe44b5274a962ee8adc0889824329c91);
+            ).addTo(map_cb7ac7e13dfba5c8911a170aa642ca56);
 
         
 </script>
